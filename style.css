@@ -37,6 +37,15 @@ header ul {
     font-size: 28px;
     text-decoration: none;
     font-family: Batman-forever;
+    transition: 100ms;
+    -webkit-transition: 100ms;
+    -moz-transition: 100ms;
+    -ms-transition: 100ms;
+    -o-transition: 100ms;
+}
+
+.nav-link:hover {
+    color: rgb(185, 185, 185);
 }
 
 body {
@@ -257,6 +266,15 @@ footer ul li {
 footer ul li a {
     text-decoration: none;
     color: black;
+    transition: 100ms;
+    -webkit-transition: 100ms;
+    -moz-transition: 100ms;
+    -ms-transition: 100ms;
+    -o-transition: 100ms;
+}
+
+footer ul li a:hover {
+    color: rgb(185, 185, 185);
 }
 
 
